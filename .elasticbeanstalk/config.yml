@@ -1,0 +1,17 @@
+branch-defaults:
+  master:
+    environment: aws-beanstalk-test-env
+    group_suffix: null
+global:
+  application_name: elastic_beanstalk_test
+  branch: null
+  default_ec2_keyname: aws_beanstalk_test
+  default_platform: python3.4
+  default_region: ap-northeast-2
+  instance_profile: null
+  platform_name: null
+  platform_version: null
+  profile: eb-cli
+  repository: https://github.com/raspberry9/elastic_beanstalk_test
+  sc: git
+  workspace_type: Application
